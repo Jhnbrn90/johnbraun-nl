@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Braun — Python Developer | Data Science | AI</title>
-  <meta name="description" content="John Braun - software development, python, data science, machine learning, AI" />
+  <title>John Braun</title>
+  <meta name="description" content="John Braun" />
   <style>
     :root {
       --bg: #0a0d14;
@@ -95,7 +95,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: auto;
       gap: 14px;
       margin-bottom: 28px;
     }
@@ -137,51 +137,6 @@
       font-size: 0.97rem;
     }
 
-    .footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      padding-top: 8px;
-      border-top: 1px solid var(--line);
-    }
-
-    .footer-text {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .icon-links {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .icon-link {
-      width: 46px;
-      height: 46px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: rgba(255, 255, 255, 0.03);
-      color: var(--text);
-      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-    }
-
-    .icon-link:hover {
-      transform: translateY(-2px);
-      border-color: rgba(140, 201, 255, 0.35);
-      background: var(--surface-strong);
-    }
-
-    .icon-link svg {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
     @media (max-width: 720px) {
       .wrap {
         align-items: flex-start;
@@ -196,11 +151,6 @@
       .grid {
         grid-template-columns: 1fr;
       }
-
-      .footer {
-        flex-direction: column;
-        align-items: flex-start;
-      }
     }
   </style>
 </head>
@@ -209,10 +159,6 @@
     <div class="container">
       <section class="card" aria-label="Introduction">
         <h1 class="name">John Braun</h1>
-        <p class="intro">
-          Background in <strong>organic chemistry</strong>, now working as a <strong>Python developer</strong> with interests in <strong>data science</strong>, <strong>machine learning</strong> and <strong>AI</strong>.
-        </p>
-
         <ul class="tags" aria-label="Expertise">
           <li>Python</li>
           <li>Data Science</li>
@@ -223,35 +169,12 @@
 
         <div class="grid">
           <a class="tile" href="https://pubs.acs.org/doi/10.1021/acs.orglett.8b02232" target="_blank" rel="noreferrer">
-            <span class="label">Publication</span>
-            <h2>Organic Letters</h2>
+            <span class="label">Organic Letters</span>
             <p>
-              Publication from my time as organic chemist on the stereoselective synthesis of fused vinylcyclopropanes.
+              Stereoselective Synthesis of Fused Vinylcyclopropanes by Intramolecular Tsuji–Trost Cascade Cyclization
             </p>
           </a>
 
-          <a class="tile" href="https://blog.johnbraun.nl/" target="_blank" rel="noreferrer">
-            <span class="label">Archive</span>
-            <h2>Blog</h2>
-            <p>
-              Blog post archive on software development
-            </p>
-          </a>
-        </div>
-
-        <div class="footer">
-          <div class="icon-links" aria-label="Links">
-            <a class="icon-link" href="https://www.linkedin.com/in/jbraunnl/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19ZM8.34 10.33H5.67V18H8.34V10.33ZM7 6A1.56 1.56 0 0 0 5.44 7.56A1.56 1.56 0 0 0 7 9.11A1.56 1.56 0 0 0 8.56 7.56A1.56 1.56 0 0 0 7 6ZM18.33 13.36C18.33 10.97 16.81 10.06 15.4 10.06C14.26 10.06 13.75 10.69 13.47 11.13V10.33H10.91V18H13.58V13.86C13.58 12.77 13.79 11.71 15.13 11.71C16.45 11.71 16.47 12.94 16.47 13.93V18H19.14V13.09L19.13 13.08C19.13 13.17 18.33 13.36 18.33 13.36Z"/>
-              </svg>
-            </a>
-            <a class="icon-link" href="mailto:mail@johnbraun.nl" aria-label="Send an e-mail">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20 4C21.11 4 22 4.9 22 6V18C22 19.11 21.11 20 20 20H4C2.89 20 2 19.11 2 18V6C2 4.9 2.89 4 4 4H20ZM20 8.24L12 13.57L4 8.24V18H20V8.24ZM20 6H4L12 11.33L20 6Z"/>
-              </svg>
-            </a>
-          </div>
         </div>
       </section>
     </div>
